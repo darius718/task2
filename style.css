@@ -1,0 +1,153 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 40px;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #222;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* ======================
+   Skeuomorphism
+   ====================== */
+.skeuomorph {
+  background: linear-gradient(145deg, #fff8f0, #fbe3d6);
+  box-shadow: 10px 10px 25px rgba(0,0,0,0.3);
+}
+
+.skeuomorph a {
+  color: #cc5200;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.skeuomorph a:hover {
+  text-decoration: underline;
+}
+
+.skeuomorph .buy-button {
+  background: linear-gradient(#ffb84d, #e67300);
+  border: 2px solid #cc6600;
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  box-shadow: inset 2px 2px 5px rgba(255,255,255,0.5), 
+              4px 4px 10px rgba(0,0,0,0.4);
+  transition: all 0.2s ease;
+}
+
+.skeuomorph .buy-button:hover {
+  background: linear-gradient(#ffd280, #ff9933);
+}
+
+.skeuomorph .buy-button:active {
+  background: linear-gradient(#cc6600, #994d00);
+  box-shadow: inset 4px 4px 8px rgba(0,0,0,0.5);
+}
+
+/* ======================
+   Flat Design
+   ====================== */
+.flat {
+  background: #fafafa;
+  border: 1px solid #ccc;
+}
+
+.flat a {
+  color: #444;
+  text-decoration: none;
+}
+
+.flat a:hover {
+  text-decoration: underline;
+  color: #ff6600;
+}
+
+.flat .buy-button {
+  background: #ff6600;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.flat .buy-button:hover {
+  background: #e65c00;
+}
+
+.flat .buy-button:active {
+  background: #b34700;
+}
+
+/* ======================
+   Material Design
+   ====================== */
+.material {
+  background: linear-gradient(160deg, #ffffff, #f5f5f5);
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+.material a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.material a:hover {
+  text-decoration: underline;
+  color: #ff6600;
+}
+
+.material .buy-button {
+  background: #ff6600;
+  border: none;
+  border-radius: 6px;
+  padding: 14px 22px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.3);
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.material .buy-button:hover {
+  background: #e65c00;
+  box-shadow: 0px 5px 12px rgba(0,0,0,0.35);
+}
+
+.material .buy-button:active {
+  background: #cc5200;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+}
